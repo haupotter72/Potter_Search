@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+   body {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,179,214,1) 37%, rgba(196,180,217,1) 47%, rgba(223,176,208,1) 63%, rgba(148,187,233,1) 94%);
+  }
+ footer {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,179,214,1) 37%, rgba(196,180,217,1) 47%, rgba(223,176,208,1) 63%, rgba(148,187,233,1) 94%);
+  }
+nav{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,179,214,1) 37%, rgba(196,180,217,1) 47%, rgba(223,176,208,1) 63%, rgba(148,187,233,1) 94%);
+  }
+
+  .header {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,179,214,1) 37%, rgba(196,180,217,1) 47%, rgba(223,176,208,1) 63%, rgba(148,187,233,1) 94%);
+  }
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+
+:root {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
